@@ -1,3 +1,47 @@
-.main {
-  text-align: center;
+main {
+    margin-top: -20px;
+    text-align: center;
+}
+
+#header-container {
+    height: 550px;
+    background: rgb(69,2,255);
+    background: -moz-linear-gradient(157deg, rgba(69,2,255,1) 0%, rgba(9,121,69,1) 65%, rgba(255,85,0,1) 100%);
+    background: -webkit-linear-gradient(157deg, rgba(69,2,255,1) 0%, rgba(9,121,69,1) 65%, rgba(255,85,0,1) 100%);
+    background: linear-gradient(157deg, rgba(69,2,255,1) 0%, rgba(9,121,69,1) 65%, rgba(255,85,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4502ff",endColorstr="#ff5500",GradientType=1);
+    border-bottom: 10px white solid;
+}
+
+#header {
+    padding-left: 30%;
+    padding-right: 30%;
+    color: antiquewhite;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-item {
+    display: inline-block;
+    text-align: center;
+    margin-top: 19px;
+}
+
+#github-link {
+    grid-column: 2;
+}
+
+#yt-link {
+    grid-column: 3;
+}
+
+.icon-link {
+    width: 45px;
 }
